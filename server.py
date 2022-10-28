@@ -8,7 +8,7 @@ CORS(app)
 @app.route('/', methods=['GET'])
 
 def hello():
-    data = {"SlackUsername":"Triumph Edet", "Backend":True, "Age":17, "Bio":"An aspiring backend engineer ready to face the world of tech"}
+    data = {"slackUsername":"Triumph Edet", "backend":True, "age":17, "bio":"An aspiring backend engineer ready to face the world of tech"}
     return data
 
 if __name__ == '__main__':
